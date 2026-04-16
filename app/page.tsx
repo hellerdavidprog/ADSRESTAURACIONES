@@ -157,15 +157,15 @@ export default function InicioPage() {
             </div>
             
             {/* Indicadores del carrusel (4 lineas) */}
-            <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-20">
-              <div className="w-12 h-1 rounded-full bg-[#D4AF37]" /> {/* Activo */}
+            {/* <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+              <div className="w-12 h-1 rounded-full bg-[#D4AF37]" /> 
               <div className="w-12 h-1 rounded-full bg-white/40" />
               <div className="w-12 h-1 rounded-full bg-white/40" />
               <div className="w-12 h-1 rounded-full bg-white/40" />
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       
       {/* SECCIÓN SERVICIOS - Estructura sin imágenes de fondo */}
