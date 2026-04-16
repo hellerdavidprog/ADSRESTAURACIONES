@@ -19,19 +19,19 @@ export const metadata: Metadata = {
         url: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
       },
       {
-        url: '/icon-light-32x32.png',
+        url: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
   },
 }
 
