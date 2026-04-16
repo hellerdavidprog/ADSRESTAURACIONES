@@ -12,11 +12,11 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: 'ADS Restauraciones | Formación y Servicios de Restauración de Obras de Arte',
   description: 'Especialistas en restauración, conservación y tasación de obras de arte. Programas de formación profesional con Douglas Sosa.',
-  generator: 'v0.app',
+  
   icons: {
     icon: [
       {
-        url: '/favicon.ico',
+        url: 'https://xixhmmi4m64wc0dd.public.blob.vercel-storage.com/ADS%20-%20Logo%20Gold%202025%20%281%29.ico',
       },
       {
         url: '/icon-light-32x32.png',
