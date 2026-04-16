@@ -162,10 +162,10 @@ export default function InicioPage() {
               <div className="w-12 h-1 rounded-full bg-white/40" />
               <div className="w-12 h-1 rounded-full bg-white/40" />
               <div className="w-12 h-1 rounded-full bg-white/40" />
-            </div>
+            </div>*/}
           </div>
         </div>
-      </section> */}
+      </section> 
 
       
       {/* SECCIÓN SERVICIOS - Estructura sin imágenes de fondo */}
