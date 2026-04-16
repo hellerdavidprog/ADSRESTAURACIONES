@@ -114,7 +114,7 @@ export default function InicioPage() {
       <Navbar activeItem="inicio" />
 
       {/* HERO - Carrusel grande con contenido superpuesto */}
-      <section className="pt-20 px-6">
+      <section id='inicio' className="pt-20 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Contenedor principal del carrusel con bordes redondeados */}
           <div className="relative rounded-3xl overflow-hidden h-[360px]">
@@ -169,7 +169,7 @@ export default function InicioPage() {
 
       
       {/* SECCIÓN SERVICIOS - Estructura sin imágenes de fondo */}
-      <section  id='inicio' className="py-12 px-6">
+      <section   className="py-12 px-6">
         <div className="max-w-6xl mx-auto">
           {/* Título */}
           <div className="text-center mb-12">
