@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { Geist, Geist_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
-import { Navbar } from '@/components/ads/navbar'
+
 import { Footer } from '@/components/ads/footer'
 import { MessageCircle } from 'lucide-react'
 
@@ -43,7 +43,6 @@ export default function RootLayout({
   return (
     <html lang="es" className="bg-background">
       <body className="font-sans antialiased">
-        <Navbar />
         {children}
         <Footer />
         
