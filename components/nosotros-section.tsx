@@ -17,7 +17,7 @@ export default function NosotrosSection() {
         <div className="py-6 sm:py-8 md:py-12 lg:py-16 w-full px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 md:gap-8 lg:gap-12 items-start max-w-[1400px] mx-auto">
             {/* COLUMNA IZQUIERDA */}
-            <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-8">
+            <div className="flex flex-col gap-4 sm:gap-5 md:gap-6 lg:gap-8 items-center md:items-start">
               {/* Logo ADS */}
               <div className="flex items-center justify-center w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40 lg:w-52 lg:h-52 relative">
                 <Image 
@@ -31,10 +31,10 @@ export default function NosotrosSection() {
               </div>
 
               {/* Acerca de nosotros */}
-              <div className="flex flex-col gap-1 sm:gap-2 text-center md:text-left">
+              <div className="flex flex-col gap-1 sm:gap-2 text-center md:text-left items-center md:items-start">
                 <p className="text-[8px] sm:text-[9px] md:text-xs font-bold tracking-widest" style={{ color: '#D4AF37', fontFamily: 'Luxia, serif', fontWeight: 400 }}>Acerca de nosotros</p>
                 <h3 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl" style={{ color: '#D4AF37', fontFamily: 'Luxia, serif', fontWeight: 400 }}>ADS Restauraciones</h3>
-                <div style={{ color: 'white', fontFamily: 'Lato, sans-serif', fontWeight: 300, fontSize: 'clamp(10px, 1.8vw, 12px)', lineHeight: '1.5', maxWidth: '280px' }}>
+                <div className="max-w-[280px] md:max-w-none" style={{ color: 'white', fontFamily: 'Lato, sans-serif', fontWeight: 300, fontSize: 'clamp(10px, 1.8vw, 12px)', lineHeight: '1.5' }}>
                   En ADS Restauraciones nos dedicamos a la preservacion y recuperacion de obras de arte con un enfoque profesional, etico y profundamente comprometido con el valor historico y cultural de cada pieza.
                 </div>
               </div>
@@ -53,13 +53,13 @@ export default function NosotrosSection() {
             </div>
 
             {/* COLUMNA DERECHA */}
-            <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 lg:gap-6 pt-2 sm:pt-3 md:pt-6 lg:pt-8 text-center md:text-left">
+            <div className="flex flex-col gap-2 sm:gap-3 md:gap-4 lg:gap-6 pt-2 sm:pt-3 md:pt-6 lg:pt-8 text-center md:text-left items-center md:items-start">
               <div>
                 <p className="text-[8px] sm:text-[9px] md:text-xs font-bold tracking-widest" style={{ color: '#D4AF37', fontFamily: 'Luxia, serif', fontWeight: 400 }}>Nuestro Director</p>
                 <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl" style={{ color: '#D4AF37', fontFamily: 'Luxia, serif', fontWeight: 400 }}>Douglas Sosa</h2>
               </div>
               
-              <div className="space-y-2 sm:space-y-2.5 md:space-y-3 max-w-[380px]">
+              <div className="space-y-2 sm:space-y-2.5 md:space-y-3 max-w-[380px] md:max-w-none">
                 <p style={{ color: 'white', fontFamily: 'Lato, sans-serif', fontWeight: 300, fontSize: 'clamp(10px, 1.8vw, 12px)', lineHeight: '1.5' }}>
                   Douglas Sosa es restaurador especialista en obras de arte con mas de una decada de experiencia en intervenciones sobre piezas de alto valor historico y simbolico.
                 </p>
